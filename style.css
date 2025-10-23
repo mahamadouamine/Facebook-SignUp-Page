@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #ECEEF1;
+    align-items: center;
+}
+
+.formulaire-inscription {
+    margin-top: 90px;
+    width: 740px;
+    background-color: #FFFFFF;
+    padding-left: 64px;
+    border-radius: 18px;
+    font-family: system-ui, 'Segoe UI', Arial, sans-serif;
+}
+
+
+
+.creation-compte {
+    margin: 70px;
+    padding-left: 86px;
+
+}
+
+.creation-compte p {
+    padding-left: 60px;
+}
+
+
+.utilisateur input {
+    border-radius: 6px;
+    border-top: solid #efefef;
+    border-bottom: solid #efefef;
+    border-left: solid #efefef;
+    border-right: solid #efefef;
+}
+
+.horizontale {
+    display: flex;
+    gap: 15px;
+}
+
+.horizontale input {
+    width: 44%;
+    height: 75px;
+    outline: none;
+    padding-left: 12px;
+}
+
+.verticale {
+    margin-top: 50px;
+}
+
+.verticale input {
+    width: 90%;
+    height: 75px;
+    outline: none;
+    padding-left: 12px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: black;
+
+}
+
+.date-naissance {
+    margin: 30px;
+    margin-right: 90px;
+}
+
+.date-naissance select {
+    padding-left: 10px;
+}
+
+.date-conteneur {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+#jour {
+    width: 30%;
+    height: 75px;
+    border-radius: 10px;
+    border: none;
+    border-top: solid #efefef;
+    border-bottom: solid #efefef;
+    border-left: solid #efefef;
+    border-right: solid #efefef;
+}
+
+#mois {
+    width: 30%;
+    height: 75px;
+    border-radius: 10px;
+    border: none;
+    border-top: solid #efefef;
+    border-bottom: solid #efefef;
+    border-left: solid #efefef;
+    border-right: solid #efefef;
+}
+
+#annee {
+    width: 30%;
+    height: 75px;
+    border-radius: 10px;
+    border: none;
+    border-top: solid #efefef;
+    border-bottom: solid #efefef;
+    border-left: solid #efefef;
+    border-right: solid #efefef;
+}
+
+.genre {
+    padding-right: 98px;
+}
+
+.options-genre {
+    display: flex;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+.options-genre label {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    width: 170px;
+    height: 70px;
+    border-radius: 10px;
+    padding-left: 8px;
+    border-top: solid #efefef;
+    border-bottom: solid #efefef;
+    border-left: solid #efefef;
+    border-right: solid #efefef;
+}
+
+.paragraphe {
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+.paragraphe a {
+    color: #1877f2;
+}
+
+.inscrire {
+    margin-bottom: 38px;
+    margin-top: 60px;
+}
+
+.inscrire button {
+    width: 90%;
+    height: 75px;
+    border-radius: 6px;
+    border: none;
+    background-color: #4ABF30;
+
+}
+
+.inscrire button:hover {
+    background-color: #36a420;
+}
+
+.ecriture {
+    font-size: 24px;
+}
+
+
+@media (max-width: 480px) {
+    .formulaire-inscription {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .creation-compte {
+        margin: 30px;
+        padding-left: 45px;
+
+    }
+
+    .creation-compte h2 {
+        font-size: 24px;
+    }
+
+    .creation-compte p {
+        padding-right: 0px;
+        padding-left: 0;
+        padding-left: 30px;
+    }
+
+    .horizontale {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .horizontale input {
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+    }
+
+    .verticale {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .verticale input {
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+    }
+
+    .date-conteneur {
+        flex-direction: column;
+    }
+
+    .options-genre {
+        flex-direction: column;
+        gap: 8px;
+        width: 200px;
+    }
+
+    .options-genre label {
+        height: 40px;
+    }
+
+    .inscrire button {
+        width: 100%;
+    }
+
+    .date-naissance {
+        margin: 0px;
+        margin-right: 0px;
+    }
+
+    .date-conteneur {
+        margin-bottom: 20px;
+    }
+
+    #jour {
+        width: 100%;
+        height: 38px;
+        background-color: #ECEEF1;
+    }
+
+    #mois {
+        width: 100%;
+        height: 38px;
+        background-color: #ECEEF1;
+
+    }
+
+    #annee {
+        width: 100%;
+        height: 38px;
+        background-color: #ECEEF1;
+
+    }
+
+    .paragraphe {
+        margin-right: 0px;
+    }
+
+    .inscrire {
+        margin-bottom: 0px;
+        margin-top: 40px;
+    }
+
+    .ecriture {
+        font-size: 14px;
+    }
+
+}
