@@ -71,13 +71,10 @@ input[type="password"]:focus {
 }
 
 .date-naissance {
-    margin: 30px;
-    margin-right: 90px;
+    margin-right: 30px 40px 30px 0px; 
 }
 
-.date-naissance select {
-    padding-left: 10px;
-}
+
 
 .date-conteneur {
     display: flex;
@@ -85,8 +82,12 @@ input[type="password"]:focus {
     gap: 10px;
 }
 
+.date-naissance label {
+    font-size: 18px;
+}
+
 #jour {
-    width: 30%;
+    width: 25%;
     height: 75px;
     border-radius: 10px;
     border: none;
@@ -97,7 +98,7 @@ input[type="password"]:focus {
 }
 
 #mois {
-    width: 30%;
+    width: 25%;
     height: 75px;
     border-radius: 10px;
     border: none;
@@ -108,7 +109,7 @@ input[type="password"]:focus {
 }
 
 #annee {
-    width: 30%;
+    width: 25%;
     height: 75px;
     border-radius: 10px;
     border: none;
@@ -120,6 +121,10 @@ input[type="password"]:focus {
 
 .genre {
     padding-right: 98px;
+}
+
+.genre label {
+    font-size: 18px;
 }
 
 .options-genre {
@@ -158,8 +163,8 @@ input[type="password"]:focus {
 }
 
 .inscrire button {
-    width: 90%;
-    height: 75px;
+    width: 88%;
+    height: 70px;
     border-radius: 6px;
     border: none;
     background-color: #4ABF30;
@@ -182,8 +187,8 @@ input[type="password"]:focus {
     }
 
     .creation-compte {
-        margin: 30px;
-        padding-left: 45px;
+        margin: 0px;
+        padding-left: 50px;
 
     }
 
@@ -268,6 +273,8 @@ input[type="password"]:focus {
 
     .paragraphe {
         margin-right: 0px;
+        font-size: 16px;
+        
     }
 
     .inscrire {
