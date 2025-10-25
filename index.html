@@ -12,8 +12,9 @@
             <h2>Créer un compte</h2>
             <p>Rapide et facile.</p>
         </div>
-
-        <div class="utilisateur">
+        <hr>
+        <form action="" method="get">
+            <div class="utilisateur">
             <div class="horizontale">
                 <input class="ecriture" type="text" placeholder="Prénom">
                 <input class="ecriture" type="text" placeholder="Nom de famille">
@@ -21,19 +22,18 @@
             <div class="verticale">
                 <input class="ecriture" type="text" placeholder="Numéro de mobile ou adresse e-mail">
             </div>
-            <div class="verticale">
+            <div class="verticale verti">
                 <input class="ecriture" type="password" placeholder="Nouveau mot de passe">
             </div>
         </div>
 
-   
-
         <div class="date-naissance">
             <label for="jour">Date de naissance</label>
             <div class="date-conteneur">
+               
                 <select id="jour" class="ecriture" name="jour">
-                    <option>jour</option>
-                    <option>1</option>
+                    <option value="">jour</option>
+                    <option value="">1</option>
                     <option>2</option>
                     <option>3</option>
                     <option>4</option>
@@ -151,8 +151,9 @@
         </p>
 
         <div class="inscrire">
-            <button class="ecriture">S’inscrire</button>
+            <button class="ecriture" type="submit">S’inscrire</button>
         </div>
+        </form>
     </section>
 </body>
 </html>

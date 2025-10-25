@@ -21,9 +21,8 @@ body {
 }
 
 
-
 .creation-compte {
-    margin: 70px;
+    margin: 40px;
     padding-left: 86px;
 
 }
@@ -32,13 +31,18 @@ body {
     padding-left: 60px;
 }
 
+hr {
+    width: 90%;
+    margin-bottom: 40px;
+    opacity: 0.3;
+}
 
 .utilisateur input {
     border-radius: 6px;
-    border-top: solid #efefef;
-    border-bottom: solid #efefef;
-    border-left: solid #efefef;
-    border-right: solid #efefef;
+    border: solid #cecece;
+    /* border-bottom: solid #efefef; */
+    /* border-left: solid #efefef;
+    border-right: solid #efefef; */
 }
 
 .horizontale {
@@ -54,7 +58,7 @@ body {
 }
 
 .verticale {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .verticale input {
@@ -64,6 +68,11 @@ body {
     padding-left: 12px;
 }
 
+.verti {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
 input[type="text"]:focus,
 input[type="password"]:focus {
     border-color: black;
@@ -71,7 +80,7 @@ input[type="password"]:focus {
 }
 
 .date-naissance {
-    margin-right: 30px 40px 30px 0px; 
+    margin-bottom: 30px; 
 }
 
 
@@ -79,49 +88,50 @@ input[type="password"]:focus {
 .date-conteneur {
     display: flex;
     width: 100%;
-    gap: 10px;
+    gap: 12px;
+    padding-top: 8px;
 }
 
 .date-naissance label {
     font-size: 18px;
+    
+    
 }
 
 #jour {
-    width: 25%;
-    height: 75px;
+    width: 28.8%;
+    height: 73px;
     border-radius: 10px;
     border: none;
-    border-top: solid #efefef;
-    border-bottom: solid #efefef;
+    border: solid #cecece;
+    /* border-bottom: solid #efefef;
     border-left: solid #efefef;
-    border-right: solid #efefef;
-}
+    border-right: solid #efefef;*/
+} 
 
 #mois {
-    width: 25%;
-    height: 75px;
+    width: 28.8%;
+    height: 73px;
     border-radius: 10px;
     border: none;
-    border-top: solid #efefef;
-    border-bottom: solid #efefef;
+    border: solid #cecece;
+    /* border-bottom: solid #efefef;
     border-left: solid #efefef;
-    border-right: solid #efefef;
+    border-right: solid #efefef; */
 }
 
 #annee {
-    width: 25%;
-    height: 75px;
+    width: 28.8%;
+    height: 73px;
     border-radius: 10px;
     border: none;
-    border-top: solid #efefef;
-    border-bottom: solid #efefef;
+    border: solid #cecece;
+    /* border-bottom: solid #efefef;
     border-left: solid #efefef;
-    border-right: solid #efefef;
+    border-right: solid #efefef; */
 }
 
-.genre {
-    padding-right: 98px;
-}
+
 
 .genre label {
     font-size: 18px;
@@ -130,7 +140,7 @@ input[type="password"]:focus {
 .options-genre {
     display: flex;
     margin-bottom: 50px;
-    padding-top: 30px;
+    padding-top: 6px;
     gap: 20px;
 }
 
@@ -138,23 +148,29 @@ input[type="password"]:focus {
     display: flex;
     gap: 12px;
     align-items: center;
-    width: 170px;
+    width: 190px;
     height: 70px;
     border-radius: 10px;
     padding-left: 8px;
-    border-top: solid #efefef;
-    border-bottom: solid #efefef;
+    border: solid #cecece;
+    /* border-bottom: solid #efefef;
     border-left: solid #efefef;
-    border-right: solid #efefef;
+    border-right: solid #efefef; */
 }
 
 .paragraphe {
     font-size: 20px;
     margin-right: 100px;
+    
 }
 
 .paragraphe a {
     color: #1877f2;
+    text-decoration: none;
+}
+
+.paragraphe a:hover {
+    text-decoration: underline;
 }
 
 .inscrire {
@@ -168,11 +184,12 @@ input[type="password"]:focus {
     border-radius: 6px;
     border: none;
     background-color: #4ABF30;
-
+    
 }
 
 .inscrire button:hover {
     background-color: #36a420;
+    
 }
 
 .ecriture {
