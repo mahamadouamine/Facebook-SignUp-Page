@@ -61,3 +61,6 @@ Les champs ont une grande taille (jusqu’à 75px de hauteur) pour améliorer la
 Grâce à la section @media (max-width: 480px) :
 
 * Le formulaire devient plus petit et lisible sur téléphone
+
+
+![reproduction de la page d'acceuil facebook](Hunddle-landing-page.png)
