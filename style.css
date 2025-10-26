@@ -40,9 +40,6 @@ hr {
 .utilisateur input {
     border-radius: 6px;
     border: solid #cecece;
-    /* border-bottom: solid #efefef; */
-    /* border-left: solid #efefef;
-    border-right: solid #efefef; */
 }
 
 .horizontale {
@@ -80,7 +77,7 @@ input[type="password"]:focus {
 }
 
 .date-naissance {
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 
@@ -94,8 +91,8 @@ input[type="password"]:focus {
 
 .date-naissance label {
     font-size: 18px;
-    
-    
+
+
 }
 
 #jour {
@@ -104,10 +101,7 @@ input[type="password"]:focus {
     border-radius: 10px;
     border: none;
     border: solid #cecece;
-    /* border-bottom: solid #efefef;
-    border-left: solid #efefef;
-    border-right: solid #efefef;*/
-} 
+}
 
 #mois {
     width: 28.8%;
@@ -115,9 +109,6 @@ input[type="password"]:focus {
     border-radius: 10px;
     border: none;
     border: solid #cecece;
-    /* border-bottom: solid #efefef;
-    border-left: solid #efefef;
-    border-right: solid #efefef; */
 }
 
 #annee {
@@ -126,9 +117,6 @@ input[type="password"]:focus {
     border-radius: 10px;
     border: none;
     border: solid #cecece;
-    /* border-bottom: solid #efefef;
-    border-left: solid #efefef;
-    border-right: solid #efefef; */
 }
 
 
@@ -153,15 +141,13 @@ input[type="password"]:focus {
     border-radius: 10px;
     padding-left: 8px;
     border: solid #cecece;
-    /* border-bottom: solid #efefef;
-    border-left: solid #efefef;
-    border-right: solid #efefef; */
+
 }
 
 .paragraphe {
     font-size: 20px;
-    margin-right: 100px;
-    
+    margin-right: 44px;
+
 }
 
 .paragraphe a {
@@ -184,17 +170,22 @@ input[type="password"]:focus {
     border-radius: 6px;
     border: none;
     background-color: #4ABF30;
-    
+
 }
 
 .inscrire button:hover {
     background-color: #36a420;
-    
+
 }
 
 .ecriture {
     font-size: 24px;
 }
+
+
+
+
+
 
 
 @media (max-width: 480px) {
@@ -291,7 +282,7 @@ input[type="password"]:focus {
     .paragraphe {
         margin-right: 0px;
         font-size: 16px;
-        
+
     }
 
     .inscrire {
